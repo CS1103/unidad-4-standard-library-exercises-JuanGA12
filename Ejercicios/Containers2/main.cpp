@@ -24,9 +24,9 @@ int main() {
             cin >> nro_caracteres;
             if (0 < nro_caracteres && nro_caracteres <= 100) {
                 for (int j = 0; j < nro_caracteres; ++j) {
-                    cout << "caracter: ";
+                    cout << "Caracter: ";
                     cin >> caracter;
-                    cout << "valor: ";
+                    cout << "Valor: ";
                     cin >> valor_caracter;
                     caracter_valor[caracter] = valor_caracter;
                 }
